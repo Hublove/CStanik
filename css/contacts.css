@@ -1,0 +1,304 @@
+* {
+  	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    font-family: "Montserrat";
+    scroll-behavior: smooth;
+}
+
+a {
+    color: #1f8dd6;
+}
+
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.is-center {
+    text-align: center;
+}
+
+
+
+.home-menu {
+    padding: 0.5em;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+}
+.home-menu {
+    background: #2d3e50;
+}
+.pure-menu.pure-menu-fixed {
+    /* Fixed menus normally have a border at the bottom. */
+    border-bottom: none;
+    /* I need a higher z-index here because of the scroll-over effect. */
+    z-index: 4;
+}
+
+.home-menu .pure-menu-heading {
+    color: white;
+    font-weight: 400;
+    font-size: 120%;
+}
+
+.home-menu .pure-menu-selected a {
+    color: white;
+}
+
+.home-menu a {
+    color: #6FBEF3;
+}
+.home-menu li a:hover,
+.home-menu li a:focus {
+    background: none;
+    border: none;
+    color: #AECFE5;
+}
+
+
+
+
+/* This is the main heading that appears on the blue section */
+
+
+/* This is the subheading that appears on the blue section */
+
+
+.pure-button {
+    background-color: #1f8dd6;
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+}
+
+a.pure-button-primary {
+    background: white;
+    color: #1f8dd6;
+    border-radius: 5px;
+    font-size: 120%;
+    text-decoration: none;
+}
+
+
+.home {
+	display: inline;
+	
+	background-color: #2b2b2b;
+	font-family: "Montserrat"; 
+	color: black;
+	
+}
+
+.home img {
+	float: left;
+	width: 40%;
+	padding: 25px;
+	border-radius: 100%;
+}
+
+.home-menu {
+    padding: 0.5em;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+}
+.home-menu {
+    background: #2d3e50;
+}
+.pure-menu.pure-menu-fixed {
+    /* Fixed menus normally have a border at the bottom. */
+    border-bottom: none;
+    /* I need a higher z-index here because of the scroll-over effect. */
+    z-index: 4;
+}
+
+.home-menu .pure-menu-heading {
+    color: white;
+    font-weight: 400;
+    font-size: 120%;
+}
+
+.home-menu .pure-menu-selected a {
+    color: white;
+}
+
+.home-menu a {
+    color: #6FBEF3;
+}
+.home-menu li a:hover,
+.home-menu li a:focus {
+    background: none;
+    border: none;
+    color: #AECFE5;
+}
+
+.pure-menu-item ul{
+    list-style: none;
+}
+
+
+.pure-menu-item li{
+    display: inline;
+}
+
+.header {
+    background-color: #2b2b2b;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    display: inline;
+
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 5px;
+    
+}
+
+.logo {
+    width: auto;
+    height: 50px;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.header nav {
+    position: sticky;
+    top: 0;
+    right: 0;
+    
+    display: flex;
+    margin-right: 30px;
+    padding: 10px;
+    justify-content: space-between;
+    
+}
+
+.header-button {
+    background-color: white;
+    border-radius: 10%;
+    margin: 0 2%;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.page {
+    display: flex;
+    position: absolute;
+    top: 70px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form {
+    padding: 3em;
+    position: relative;
+    
+    
+    display: flex;
+    background-color: #2b2b2b; 
+    
+    flex-direction: column;
+    
+    width: 50em;
+    
+}
+
+.content {
+    padding: 3em;
+    position: relative;
+    display: flex;
+    margin: 3em 5em;
+    width: 92%;
+    justify-content: space-between;
+}
+
+.content h1 {
+    text-decoration: white underline;
+}
+
+.socials {
+    background-color: #2b2b2b; 
+    padding: 3em;
+    text-decoration: white underline;
+    width: 50em;
+    
+}
+
+.form-input {
+    margin: 0.5em;
+    padding: 0.5em;
+    font-size: 10px;
+}
+
+.form-label {
+    font-weight: bolder;
+}
+
+.pure-button {
+    background-color: #1f8dd6;
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.font {
+    color: white;
+    font-family: "Montserrat"; 
+}
+
+.l-box {
+    padding: 1em;
+}
+.is-center {
+    text-align: center;
+}
+
+
+.footer {
+    background: #111;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+@media (min-width: 48em) {
+
+    /* We increase the body font size */
+    body {
+        font-size: 16px;
+    }
+
+
+    
+    .intro {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        
+    }
+    
+
+
+}
+
+/*
+ * -- DESKTOP (AND UP) MEDIA QUERIES --
+ * On desktops and other large devices, we want to over-ride some
+ * of the mobile and tablet styles.
+ */
+@media (min-width: 78em) {
+    /* We increase the header font size even more */
+}
+     

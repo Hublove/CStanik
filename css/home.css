@@ -1,0 +1,370 @@
+* {
+  	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    font-family: "Montserrat";
+    scroll-behavior: smooth;
+}
+
+a {
+    color: #1f8dd6;
+}
+
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.home-menu {
+    padding: 0.5em;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+}
+.home-menu {
+    background: #2d3e50;
+}
+.pure-menu.pure-menu-fixed {
+    /* Fixed menus normally have a border at the bottom. */
+    border-bottom: none;
+    /* I need a higher z-index here because of the scroll-over effect. */
+    z-index: 4;
+}
+
+.home-menu .pure-menu-heading {
+    color: white;
+    font-weight: 400;
+    font-size: 120%;
+}
+
+.home-menu .pure-menu-selected a {
+    color: white;
+}
+
+.home-menu a {
+    color: #6FBEF3;
+}
+.home-menu li a:hover,
+.home-menu li a:focus {
+    background: none;
+    border: none;
+    color: #AECFE5;
+}
+
+.splash-container {
+    z-index: 1;
+    overflow: hidden;
+    /* The following styles are required for the "scroll-over" effect */
+    width: 100%;
+    height: 53em;
+    position: absolute;
+    top: 70px;
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.splash {
+    /* absolute center .splash within .splash-container */
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    position: relative;
+    top: 270px; left: 0; bottom: 0; right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    
+    
+}
+
+/* This is the main heading that appears on the blue section */
+.splash-head {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+    padding: 1em 1.6em;
+    font-weight: 100;
+    border-radius: 5px;
+    line-height: 1em;
+}
+
+/* This is the subheading that appears on the blue section */
+.splash-subhead {
+    color: white;
+    letter-spacing: 0.05em;
+    opacity: 0.8;
+}
+
+
+.pure-button {
+    background-color: #1f8dd6;
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+}
+
+a.pure-button-primary {
+    background: white;
+    color: #1f8dd6;
+    border-radius: 5px;
+    font-size: 120%;
+    text-decoration: none;
+}
+
+
+.home {
+	display: inline;
+	
+	background-color: #2b2b2b;
+	font-family: "Montserrat"; 
+	color: black;
+	
+}
+
+.home img {
+	float: left;
+	width: 40%;
+	padding: 25px;
+	border-radius: 100%;
+}
+
+.home-menu {
+    padding: 0.5em;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+}
+.home-menu {
+    background: #2d3e50;
+}
+.pure-menu.pure-menu-fixed {
+    /* Fixed menus normally have a border at the bottom. */
+    border-bottom: none;
+    /* I need a higher z-index here because of the scroll-over effect. */
+    z-index: 4;
+}
+
+.home-menu .pure-menu-heading {
+    color: white;
+    font-weight: 400;
+    font-size: 120%;
+}
+
+.home-menu .pure-menu-selected a {
+    color: white;
+}
+
+.home-menu a {
+    color: #6FBEF3;
+}
+.home-menu li a:hover,
+.home-menu li a:focus {
+    background: none;
+    border: none;
+    color: #AECFE5;
+}
+
+.pure-menu-item ul{
+    list-style: none;
+}
+
+
+.pure-menu-item li{
+    display: inline;
+}
+
+.header {
+    background-color: #2b2b2b;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    display: inline;
+
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 5px;
+    
+}
+
+.logo {
+    width: auto;
+    height: 50px;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.header nav {
+    position: sticky;
+    top: 0;
+    right: 0;
+    
+    display: flex;
+    margin-right: 30px;
+    padding: 10px;
+    justify-content: space-between;
+    
+}
+
+.header-button {
+    background-color: white;
+    border-radius: 10%;
+    margin: 0 2%;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.fake {
+    height: 53em;
+    width: 100%;
+    position: relative;
+    background-color: #2b2b2b; 
+}
+
+.intro {
+    position: relative;
+    height: auto;
+    display: flex;
+    background-color: #2b2b2b; 
+    margin: 8em 5em;
+    
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    min-width: 350px;
+    
+}
+
+.profile-image {
+    min-height: 5em;
+    width: auto;
+    height: 20em;
+    border-radius: 100%;
+    margin: 20px;
+    border: 5px white solid;
+    box-shadow: 0 5px 10px; 
+}
+
+.personal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    width: 80%;
+    margin: 20px;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    font-size: 1.5em
+}
+
+.personal-content h2 {
+    font-weight: bold;
+}
+
+hr {
+    width: 100%;
+    box-shadow: 0 5px 10px; 
+}
+
+.footer {
+    background: #111;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+/*
+[1]: All items a forced onto a single line, causing the overflow when necessary.
+[2]: Automatic overflow means a scroll bar won’t be present if it isn’t needed
+[3]: Make it smooth scrolling on iOS devices
+[4]: Hide the ugly scrollbars in Edge until the scrollable area is hovered
+[5]: Hide the scroll bar in WebKit browsers
+
+.scroll {
+  white-space: nowrap; /* [1] */
+  overflow-x: auto; /* [2] */
+  -webkit-overflow-scrolling: touch; /* [3] */
+  -ms-overflow-style: -ms-autohiding-scrollbar; /* [4] */ 
+    
+}
+*/
+
+
+/* [5] */
+.scroll::-webkit-scrollbar {
+  display: none; }
+
+
+@media (min-width: 48em) {
+
+    /* We increase the body font size */
+    body {
+        font-size: 16px;
+    }
+
+    /* We can align the menu header to the left, but float the
+    menu items to the right. */
+    .home-menu {
+        text-align: left;
+    }
+        .home-menu ul {
+            float: right;
+        }
+
+    /* We increase the height of the splash-container */
+/*    .splash-container {
+        height: 500px;
+    }*/
+
+    /* We decrease the width of the .splash, since we have more width
+    to work with */
+    .splash {
+        width: 50%;
+        height: 50%;
+    }
+
+    .splash-head {
+        font-size: 250%;
+    }
+
+
+    /* We remove the border-separator assigned to .l-box-lrg */
+    .l-box-lrg {
+        border: none;
+    }
+    
+    .intro {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        
+    }
+    
+
+
+}
+
+/*
+ * -- DESKTOP (AND UP) MEDIA QUERIES --
+ * On desktops and other large devices, we want to over-ride some
+ * of the mobile and tablet styles.
+ */
+@media (min-width: 78em) {
+    /* We increase the header font size even more */
+    .splash-head {
+        font-size: 300%;
+    }
+}
+     
