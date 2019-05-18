@@ -100,10 +100,14 @@ a {
 
 
 .pure-button {
-    background-color: #1f8dd6;
+    background-color: maroon;
     color: white;
     padding: 0.5em 2em;
     border-radius: 5px;
+    font-weight: bolder;
+    font-size: 1.5em;
+    border-radius: 5%;
+    box-shadow: 0 5px 5px;
 }
 
 a.pure-button-primary {
@@ -205,7 +209,7 @@ a.pure-button-primary {
     right: 0;
     
     display: flex;
-    margin-right: 30px;
+    margin-right: 10px;
     padding: 10px;
     justify-content: space-between;
     
@@ -273,6 +277,14 @@ hr {
     box-shadow: 0 5px 10px; 
 }
 
+.social {
+    color: #2b2b2b !important;
+}
+
+.social hr {
+    width: 40%;
+}
+
 .footer {
     background: #111;
     position: relative;
@@ -281,6 +293,27 @@ hr {
     padding: 1em;
     text-align: center;
     color: white;
+}
+
+.social-icons img {
+    margin: 15px 10px;
+    height: 4em;
+    box-shadow: 0 5px 10px; 
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+
+.email img {
+    height: 3em;
+    margin-right: 10px;
 }
 
 
