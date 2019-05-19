@@ -316,7 +316,10 @@ hr {
     margin-right: 10px;
 }
 
-
+.resume {
+    text-decoration: none;
+    color: white;
+}
 
 
 /*
