@@ -171,7 +171,7 @@ a.pure-button-primary {
     right: 0;
     
     display: flex;
-    margin-right: 30px;
+    margin-right: 10px;
     padding: 10px;
     justify-content: space-between;
     
@@ -192,52 +192,65 @@ a.pure-button-primary {
     top: 70px;
     flex-direction: column;
     width: 100%;
+    background-color: dimgrey;
 }
 
-.form {
-    padding: 3em;
-    position: relative;
-    
-    
-    display: flex;
-    background-color: #2b2b2b; 
-    
-    flex-direction: column;
-    
-    width: 50em;
-    
-}
+
 
 .content {
-    padding: 3em;
     position: relative;
     display: flex;
     margin: 3em 5em;
-    width: 92%;
-    justify-content: space-between;
-}
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    -webkit-box-shadow: -1px 1px 5px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 5px 5px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 5px 5px rgba(0,0,0,0.75);
 
-.content h1 {
-    text-decoration: white underline;
-}
-
-.socials {
-    background-color: #2b2b2b; 
-    padding: 3em;
-    text-decoration: white underline;
-    width: 50em;
     
 }
 
-.form-input {
-    margin: 0.5em;
-    padding: 0.5em;
-    font-size: 10px;
+
+.project {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    margin: 2em;
+    
+    
+    
 }
 
-.form-label {
-    font-weight: bolder;
+
+
+.project-text {
+    font-size: 2em;
+    font-weight: bold;
 }
+
+.github-button {
+    
+    padding: 5px;
+    background-color: white;
+    border-radius: 10%;
+    border: lightblue 5px solid;
+    text-decoration: none;
+    background-color: white;
+    -webkit-box-shadow: -1px 1px 2px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 2px 2px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 2px 2px rgba(0,0,0,0.75);
+    
+    
+}
+
+.content img {
+    width: 20em;
+    height: 20em;
+    border: black 5px solid;
+    margin: 1em 2em;
+}
+
 
 .pure-button {
     background-color: #1f8dd6;
@@ -249,7 +262,7 @@ a.pure-button-primary {
 }
 
 .font {
-    color: white;
+    color: #2b2b2b;
     font-family: "Montserrat"; 
 }
 
@@ -274,7 +287,7 @@ a.pure-button-primary {
 
 
 
-@media (min-width: 48em) {
+@media (max-width: 48em) {
 
     /* We increase the body font size */
     body {
@@ -287,6 +300,11 @@ a.pure-button-primary {
         flex-direction: column;
         flex-wrap: nowrap;
         
+    }
+    
+    .project {
+        flex-direction: column;
+        align-items: center;
     }
     
 
