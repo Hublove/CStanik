@@ -6,9 +6,7 @@
     scroll-behavior: smooth;
 }
 
-a {
-    color: #1f8dd6;
-}
+
 
 .pure-img-responsive {
     max-width: 100%;
@@ -100,19 +98,17 @@ a {
 
 
 .pure-button {
-    background-color: maroon;
-    color: white;
-    padding: 0.5em 2em;
-    border-radius: 5px;
+    background-color: #FFA041;
+    color: #232a3a;
+    padding: 0.5em 0.5em;
     font-weight: bolder;
-    font-size: 1.5em;
-    border-radius: 5%;
-    box-shadow: 0 5px 5px;
+    font-size: 1em;
+    
 }
 
 a.pure-button-primary {
-    background: white;
-    color: #1f8dd6;
+    background: #404d6a;
+    color: #ffffff;
     border-radius: 5px;
     font-size: 120%;
     text-decoration: none;
@@ -143,6 +139,8 @@ a.pure-button-primary {
 .home-menu {
     background: #2d3e50;
 }
+
+
 .pure-menu.pure-menu-fixed {
     /* Fixed menus normally have a border at the bottom. */
     border-bottom: none;
@@ -180,19 +178,16 @@ a.pure-button-primary {
 }
 
 .header {
-    background-color: #2b2b2b;
+    background-color: #10131a;
     position: fixed !important;
     top: 0;
     left: 0;
     z-index: 5;
-    width: 100%;
-    display: inline;
-
-    
+    width: 100%;    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 5px 5px;
+    box-shadow: 0 0px 3px;
     
 }
 
@@ -216,13 +211,21 @@ a.pure-button-primary {
 }
 
 .header-button {
-    background-color: white;
+    color: white;
+    background-color: #10131a;
+    font-weight: bolder;
     border-radius: 10%;
     margin: 0 2%;
     padding: 10px;
     text-decoration: none;
     text-align: center;
+    
 }
+
+.header-button:hover {
+    color: #FFA041;
+}
+
 
 .fake {
     height: 53em;
@@ -235,7 +238,7 @@ a.pure-button-primary {
     position: relative;
     height: auto;
     display: flex;
-    background-color: #2b2b2b; 
+    background-color: #232a3a; 
     margin: 8em 5em;
     
     align-content: center;
@@ -281,9 +284,6 @@ hr {
     box-shadow: 0 5px 10px; 
 }
 
-.social {
-    color: #2b2b2b !important;
-}
 
 .social hr {
     width: 40%;
@@ -301,8 +301,10 @@ hr {
 
 .social-icons img {
     margin: 15px 10px;
-    height: 4em;
-    box-shadow: 0 5px 10px; 
+    height: 2em;
+    border-radius: 10%;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.75); 
+    border-radius: 100%;
 }
 
 .email {
@@ -322,7 +324,12 @@ hr {
 
 .resume {
     text-decoration: none;
-    color: white;
+    background-color: #FFA041;
+    color: #232a3a;
+    padding: 0.5em 0.5em;
+    font-weight: 1000;
+    font-size: 1.2em;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.75); 
 }
 
 
