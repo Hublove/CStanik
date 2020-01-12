@@ -205,7 +205,9 @@ hr {
     body {
         font-size: 16px;
     }
-
+    
+    
+    
     /* We can align the menu header to the left, but float the
     menu items to the right. */
     .home-menu {
@@ -245,6 +247,12 @@ hr {
     
 
 
+}
+
+@media (max-width: 48em) {
+    .intro {
+            margin: 1em 1em;
+        }
 }
 
 /*
