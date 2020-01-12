@@ -19,183 +19,12 @@ a {
     text-align: center;
 }
 
-
-
-.home-menu {
-    padding: 0.5em;
-    text-align: center;
-    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
-}
-.home-menu {
-    background: #2d3e50;
-}
-.pure-menu.pure-menu-fixed {
-    /* Fixed menus normally have a border at the bottom. */
-    border-bottom: none;
-    /* I need a higher z-index here because of the scroll-over effect. */
-    z-index: 4;
-}
-
-.home-menu .pure-menu-heading {
-    color: white;
-    font-weight: 400;
-    font-size: 120%;
-}
-
-.home-menu .pure-menu-selected a {
-    color: white;
-}
-
-.home-menu a {
-    color: #6FBEF3;
-}
-.home-menu li a:hover,
-.home-menu li a:focus {
-    background: none;
-    border: none;
-    color: #AECFE5;
-}
-
-
-
-
-/* This is the main heading that appears on the blue section */
-
-
-/* This is the subheading that appears on the blue section */
-
-
-.pure-button {
-    background-color: #1f8dd6;
-    color: white;
-    padding: 0.5em 2em;
-    border-radius: 5px;
-}
-
-a.pure-button-primary {
-    background: white;
-    color: #1f8dd6;
-    border-radius: 5px;
-    font-size: 120%;
-    text-decoration: none;
-}
-
-
-.home {
-	display: inline;
-	
-	background-color: #2b2b2b;
-	font-family: "Montserrat"; 
-	color: black;
-	
-}
-
-.home img {
-	float: left;
-	width: 40%;
-	padding: 25px;
-	border-radius: 100%;
-}
-
-.home-menu {
-    padding: 0.5em;
-    text-align: center;
-    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
-}
-.home-menu {
-    background: #2d3e50;
-}
-.pure-menu.pure-menu-fixed {
-    /* Fixed menus normally have a border at the bottom. */
-    border-bottom: none;
-    /* I need a higher z-index here because of the scroll-over effect. */
-    z-index: 4;
-}
-
-.home-menu .pure-menu-heading {
-    color: white;
-    font-weight: 400;
-    font-size: 120%;
-}
-
-.home-menu .pure-menu-selected a {
-    color: white;
-}
-
-.home-menu a {
-    color: #6FBEF3;
-}
-.home-menu li a:hover,
-.home-menu li a:focus {
-    background: none;
-    border: none;
-    color: #AECFE5;
-}
-
-.pure-menu-item ul{
-    list-style: none;
-}
-
-
-.pure-menu-item li{
-    display: inline;
-}
-
-.header {
-    background-color: #10131a;
-    position: fixed !important;
-    top: 0;
-    left: 0;
-    z-index: 5;
-    width: 100%;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 0px 3px;
-    
-}
-
-.logo {
-    width: auto;
-    height: 50px;
-    margin: 10px;
-    margin-left: 20px;
-}
-
-.header nav {
-    position: sticky;
-    top: 0;
-    right: 0;
-    
-    display: flex;
-    margin-right: 10px;
-    padding: 10px;
-    justify-content: space-between;
-    
-}
-
-.header-button {
-    background-color: #10131a;
-    font-weight: bolder;
-    border-radius: 5%;
-    margin: 0 2%;
-    padding: 10px;
-    text-decoration: none;
-    text-align: center;
-}
-
-.header-button:hover {
-    color: #FFA041;
-}
-
 .page {
     display: flex;
     position: absolute;
     top: 70px;
     flex-direction: column;
-    width: 100%;
-    background-color: C26868;
+    width: 100%;    
 }
 
 
@@ -209,46 +38,65 @@ a.pure-button-primary {
     background-color: #232a3a;
     -webkit-box-shadow: -1px 1px 5px 5px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 1px 5px 5px rgba(0,0,0,0.75);
-    box-shadow: -1px 1px 5px 5px rgba(0,0,0,0.75);
-
+    box-shadow: -1px 1px 4px 4px rgba(0,0,0,0.75);
+    
     
 }
 
 
 .project {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
     margin: 2em;
     
     
-    
 }
+
+.project-title {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
 
 .project-text {
     font-size: 2em;
-    font-weight: bold;
+    width: 100%;
+    height: 7em;
 }
 
 .github-button {
     color: #FFA041 !important;
-    padding: 7px;
-
+    padding: 1vh;
     border: #FFA041 5px solid;
     text-decoration: none;
     background-color: #404d6a;
     -webkit-box-shadow: -1px 1px 2px 2px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 1px 2px 2px rgba(0,0,0,0.75);
     box-shadow: -1px 1px 2px 2px rgba(0,0,0,0.75);
-    
-    
+    align-content: center;
+    display: flex;
+    width: 6em;
+    justify-content: center;  
+    margin: 1vw;
 }
 
-.content img {
-    width: 20em;
+
+.github-button img {
+    height: 4vh;
+    margin-right: 0.5vw;
+}
+
+.project-image {
+    min-height: 5em;
+    width: auto;
     height: 20em;
-    border: white 5px solid;
-    margin: 1em 2em;
+    border-radius: 100%;
+    margin: 0em 2em;
+    border: 5px white solid;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.75); 
 }
 
 
@@ -286,15 +134,12 @@ a.pure-button-primary {
 
 
 
-
-@media (max-width: 48em) {
+@media (max-width: 60em) {
 
     /* We increase the body font size */
     body {
         font-size: 16px;
     }
-
-
     
     .intro {
         flex-direction: column;
@@ -302,7 +147,17 @@ a.pure-button-primary {
         
     }
     
+    
     .project {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    
+    
+    .project-title {
         flex-direction: column;
         align-items: center;
     }
