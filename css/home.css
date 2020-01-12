@@ -15,52 +15,20 @@
 
 
 
-.home-menu {
-    padding: 0.5em;
-    text-align: center;
-    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
-}
-.home-menu {
-    background: #2d3e50;
-}
-.pure-menu.pure-menu-fixed {
-    /* Fixed menus normally have a border at the bottom. */
-    border-bottom: none;
-    /* I need a higher z-index here because of the scroll-over effect. */
-    z-index: 4;
-}
-
-.home-menu .pure-menu-heading {
-    color: white;
-    font-weight: 400;
-    font-size: 120%;
-}
-
-.home-menu .pure-menu-selected a {
-    color: white;
-}
-
-.home-menu a {
-    color: #6FBEF3;
-}
-.home-menu li a:hover,
-.home-menu li a:focus {
-    background: none;
-    border: none;
-    color: #AECFE5;
-}
 
 .splash-container {
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
+    height: 100vh;
     width: 100%;
-    height: 53em;
-    position: absolute;
-    top: 70px;
     background-image: url(images/background.jpg);
     background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+    
     
 }
 
@@ -70,7 +38,7 @@
     height: 50%;
     margin: auto;
     position: relative;
-    top: 270px; left: 0; bottom: 0; right: 0;
+    top: 40vh; left: 0; bottom: 0; right: 0;
     text-align: center;
     text-transform: uppercase;
     
@@ -84,7 +52,7 @@
     color: white;
     border: 3px solid white;
     padding: 1em 1.6em;
-    font-weight: 100;
+    font-weight: bold;
     border-radius: 5px;
     line-height: 1em;
 }
@@ -98,84 +66,17 @@
 
 
 .pure-button {
-    background-color: #FFA041;
-    color: #232a3a;
-    padding: 0.5em 0.5em;
+    padding: 0.5em 1em;
     font-weight: bolder;
     font-size: 1em;
-    
-}
-
-a.pure-button-primary {
     background: #404d6a;
     color: #ffffff;
     border-radius: 5px;
     font-size: 120%;
     text-decoration: none;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.75); 
 }
 
-
-.home {
-	display: inline;
-	
-	background-color: #2b2b2b;
-	font-family: "Montserrat"; 
-	color: black;
-	
-}
-
-.home img {
-	float: left;
-	width: 40%;
-	padding: 25px;
-	border-radius: 100%;
-}
-
-.home-menu {
-    padding: 0.5em;
-    text-align: center;
-    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
-}
-.home-menu {
-    background: #2d3e50;
-}
-
-
-.pure-menu.pure-menu-fixed {
-    /* Fixed menus normally have a border at the bottom. */
-    border-bottom: none;
-    /* I need a higher z-index here because of the scroll-over effect. */
-    z-index: 4;
-}
-
-.home-menu .pure-menu-heading {
-    color: white;
-    font-weight: 400;
-    font-size: 120%;
-}
-
-.home-menu .pure-menu-selected a {
-    color: white;
-}
-
-.home-menu a {
-    color: #6FBEF3;
-}
-.home-menu li a:hover,
-.home-menu li a:focus {
-    background: none;
-    border: none;
-    color: #AECFE5;
-}
-
-.pure-menu-item ul{
-    list-style: none;
-}
-
-
-.pure-menu-item li{
-    display: inline;
-}
 
 .header {
     background-color: #10131a;
@@ -193,22 +94,29 @@ a.pure-button-primary {
 
 .logo {
     width: auto;
-    height: 50px;
+    height: 5vh;
     margin: 10px;
     margin-left: 20px;
+}
+
+.header hr {
+    height: auto;
+    width: 2px;
 }
 
 .header nav {
     position: sticky;
     top: 0;
     right: 0;
-    
     display: flex;
-    margin-right: 10px;
-    padding: 10px;
+    margin-right: 0.5vw;
+    padding: 0.5vw;
     justify-content: space-between;
+    align-content: center;
     
 }
+
+
 
 .header-button {
     color: white;
@@ -226,13 +134,6 @@ a.pure-button-primary {
     color: #FFA041;
 }
 
-
-.fake {
-    height: 53em;
-    width: 100%;
-    position: relative;
-    background-color: #2b2b2b; 
-}
 
 .intro {
     position: relative;
@@ -280,14 +181,13 @@ a.pure-button-primary {
 }
 
 hr {
-    width: 100%;
-    box-shadow: 0 5px 10px; 
+    width: 100%; 
+    height: 3px;
+    background-color: white;
 }
 
 
-.social hr {
-    width: 40%;
-}
+
 
 .footer {
     background: #111;
@@ -326,7 +226,7 @@ hr {
     text-decoration: none;
     background-color: #FFA041;
     color: #232a3a;
-    padding: 0.5em 0.5em;
+    padding: 0.5em 1em;
     font-weight: 1000;
     font-size: 1.2em;
     box-shadow: 0 5px 5px rgba(0,0,0,0.75); 
